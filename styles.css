@@ -1,0 +1,284 @@
+/* Font family Links */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+.navbar-brand{
+    padding: 40px;
+    font-size: 40px;
+    font-family: 'Cedarville Cursive', cursive;
+    color: #415a77;
+}
+
+.navbar-nav{
+    padding-left: 300px;
+}
+
+.nav-item{
+    padding: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-link{
+    font-family: 'Quicksand', sans-serif;
+    color: #2f3e46;
+}
+
+.nav-link:hover{
+    color: #415a77;
+}
+
+.heading-container{
+    width: 350px;
+    /* font-family: 'Ubuntu', sans-serif; */
+    margin: 35px;
+}
+
+.heading{
+    padding: 5px;
+    color: #415a77;
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#header-section{
+    background-color: #ced4da;
+}
+
+/* Responsive Starting */
+
+@media (  max-width:1040px){
+
+.navbar-nav{
+    padding: 20px;
+}
+
+.nav-item{
+    padding: 10px;
+}
+
+.heading-container{
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.image-container{
+    position: relative;
+    top:1px;
+    
+}
+
+.all-cards{
+    gap: 20px;
+}
+
+.bolt{
+    padding: 15px;
+}
+
+.trust{
+    padding: 15px;
+}
+
+.budget{
+    padding: 15px;
+}
+
+}
+    
+/* Responsive ending */
+
+.image-container{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 180px;
+    bottom: 180px;
+}
+
+.image{
+    height: 400px;
+    width: 600px;
+    filter: drop-shadow(10px 10px 10px #415a77);
+
+}
+
+
+/* About section */
+
+#about-section{
+    padding: 35px;
+}
+
+.about-head{
+    text-align: center;
+}
+
+.ic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    font-size: 40px;
+    border: 5px solid #415a77;
+    border-radius: 100%;
+    padding: 15px;
+    background-color: #ced4da;
+}
+
+.icon:hover{
+    color: #014f86;
+}
+
+.feature-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.same{
+    text-align: center;
+}
+
+/* Skills Section Starting */
+
+#skills-section{
+    padding: 25px;
+}
+
+
+.all-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ gap: 15px;
+}
+
+
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card{
+    padding: 50px;
+    background-image: linear-gradient(#cbf3f0,#f6fff8);
+}
+
+.card:hover{
+    background-image: linear-gradient(#62b6cb,#fefcfb);
+transform: scaleY(1.1);
+}
+
+.html{
+    font-size: 80px;
+padding: 10px;
+border: 10px solid red;
+color: white;
+border-radius: 50%;
+background-color: red;
+}
+
+.css{
+    font-size: 80px;
+    padding: 10px;
+    border: 10px solid skyblue;
+    background-color: skyblue;
+    border-radius: 50%;
+    color: white;
+}
+
+.card-2{
+    padding: 50px;
+    background-image: linear-gradient(#ffeedd,#f6fff8);
+    border-radius: 8px;
+}
+
+.card-2:hover{
+    transform: scaleY(1.1);
+    background-image: linear-gradient(#ffd670,#f6fff8);
+}
+
+.js{
+    font-size: 80px;
+    padding: 10px;
+   color: yellow;
+}
+
+
+.card-3{
+    padding: 50px;
+    background-image: linear-gradient(#9d4edd,#f6fff8);
+    border-radius: 8px;
+}
+
+.card-3:hover{
+background-image: linear-gradient(#6411ad,#f6fff8);
+transform: scaleY(1.1);
+}
+
+.bs{
+    font-size: 80px;
+    padding: 10px;
+     color: #6411ad;
+}
+
+.card-4{
+    padding: 50px;
+    background-image: linear-gradient(#9dd9d2,#ffffff);
+border-radius: 8px;
+}
+
+.card-4:hover{
+    background-image: linear-gradient(#c0e8fe,#ffffff);
+    transform: scaleY(1.1);
+}
+
+.db{
+    font-size: 80px;
+    padding: 10px;
+color: skyblue;
+}
+
+/* Contact Section Starting */
+
+#contact-section{
+    background-color:#ced4da ;
+    padding: 40px;
+}
+
+.same-2{
+    font-family: 'Montserrat', sans-serif; 
+    color:#415a77;
+    font-weight: bold;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.contact-icons{
+    font-size: 35px;
+    padding: 25px;
+    cursor: pointer;
+}
+
+.contact-head{
+    margin: 40px;
+}
+
+.same-3{
+    color: gray;
+    font-size: 20px;
+}
